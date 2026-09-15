@@ -1,5 +1,3 @@
-Plants — Multi-page plant website
-===================================
 
 Pages:
 - index.html
@@ -8,11 +6,6 @@ Pages:
 - plant-care.html
 - contact.html
 
-Currency:
-- All product prices use Indian Rupees (₹ / INR).
-
-Brand:
-- Website name is Plants.
 
 Features:
 - Responsive multi-page design
