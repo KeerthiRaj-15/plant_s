@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Plants — beautiful indoor and outdoor plants.">
+<title>Plant Care Guide — Plants</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="inner-page">
+
+<header class="site-header" id="top">
+  <a class="brand" href="index.html" aria-label="Plants home"><span class="brand-mark">♧</span><span>Plants</span></a>
+  <nav class="nav" aria-label="Primary navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="plant-care.html">Plant Care</a>
+    <a href="shop.html">Shop</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="header-actions">
+    <button class="cart-btn" id="cartBtn">Cart <span id="cartCount">0</span></button>
+    <a class="btn btn-dark" href="shop.html">Shop Now</a>
+  </div>
+  <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+</header>
+
+<main>
+
+<section class="inner-hero care-hero"><div><p class="eyebrow">PLANT CARE GUIDE</p><h1>Keep your<br><span>plants thriving.</span></h1><p>Simple routines for light, watering, feeding and seasonal care.</p></div><img src="assets/why-plant.jpg" alt="Hands planting a young plant"></section>
+<section class="care-list section"><div class="section-heading"><p class="eyebrow">START HERE</p><h2>Four habits that matter most.</h2><p>Use these basics before adding complicated routines.</p></div><div class="care-grid">
+<article><div class="care-number">01</div><h3>Check the light</h3><p>Match the plant to the amount of natural light your room actually receives. Rotate pots occasionally for even growth.</p></article>
+<article><div class="care-number">02</div><h3>Water with intention</h3><p>Check the soil before watering. Avoid keeping roots permanently saturated unless the plant specifically prefers wet conditions.</p></article>
+<article><div class="care-number">03</div><h3>Watch the leaves</h3><p>Leaves can signal stress. Yellowing, crisp edges or drooping are reasons to check light, moisture and drainage.</p></article>
+<article><div class="care-number">04</div><h3>Feed in season</h3><p>Use suitable fertilizer during active growth and ease back when growth naturally slows.</p></article>
+</div></section>
+<section class="care-banner"><div><p class="eyebrow">BEGINNER PICKS</p><h2>Start with forgiving plants.</h2><p>Pothos, Peace Lily and Philodendron are approachable choices when you're learning a new routine.</p><a class="btn btn-dark" href="shop.html">Shop Beginner Plants</a></div><img src="assets/pothos.jpg" alt="Pothos plant"></section>
+<section class="faq section"><div class="section-heading"><p class="eyebrow">QUICK ANSWERS</p><h2>Plant care FAQ</h2></div><div class="faq-list"><details open><summary>How often should I water?</summary><p>There is no universal schedule. Check soil moisture and the plant's light and temperature before watering.</p></details><details><summary>Should I repot immediately?</summary><p>Not always. Give a new plant time to acclimate unless the pot or drainage is clearly unsuitable.</p></details><details><summary>What is the easiest indoor plant?</summary><p>Start with resilient varieties such as Pothos and Philodendron and choose a location with suitable light.</p></details></div></section>
+
+</main>
+
+<footer id="contact">
+  <div class="footer-grid">
+    <div>
+      <a class="brand footer-brand" href="index.html"><span class="brand-mark">♧</span><span>Plants</span></a>
+      <p>Bringing beautiful, healthy greenery into every home — one plant at a time.</p>
+      <div class="socials"><span>IG</span><span>FB</span><span>TW</span></div>
+    </div>
+    <div><h4>Site Map</h4><a href="index.html">Home</a><a href="shop.html">Shop</a><a href="plant-care.html">Plant Care</a><a href="about.html">About</a><a href="contact.html">Contact</a></div>
+    <div><h4>Legal</h4><a href="#">Privacy Policy</a><a href="#">Terms & Conditions</a><a href="#">Refund & Shipping</a><a href="#">FAQ</a></div>
+  </div>
+  <div class="copyright">© 2026 Plants. All Rights Reserved.</div>
+</footer>
+
+
+<aside class="cart-panel" id="cartPanel" aria-hidden="true">
+  <div class="cart-head"><h2>Your Cart</h2><button id="closeCart">×</button></div>
+  <div id="cartItems" class="cart-items"><p class="empty">Your cart is empty.</p></div>
+  <div class="cart-total"><span>Total</span><strong id="cartTotal">$0.00</strong></div>
+  <button class="checkout-btn" id="checkoutBtn">Checkout</button>
+</aside>
+<div class="overlay" id="overlay"></div>
+<div class="toast" id="toast">Added to cart</div>
+
+<script src="script.js"></script>
+</body>
+</html>
